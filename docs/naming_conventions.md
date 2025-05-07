@@ -12,7 +12,6 @@ This document outlines the naming conventions used for schemas, tables, views, c
 3. [Column Naming Conventions](#column-naming-conventions)
    - [Surrogate Keys](#surrogate-keys)
    - [Technical Columns](#technical-columns)
-4. [Stored Procedure](#stored-procedure-naming-conventions)
 ---
 
 ## **General Principles**
@@ -69,13 +68,3 @@ This document outlines the naming conventions used for schemas, tables, views, c
   - `dwh`: Prefix exclusively for system-generated metadata.  
   - `<column_name>`: Descriptive name indicating the column's purpose.  
   - Example: `dwh_load_date` → System-generated column used to store the date when the record was loaded.
- 
-## **Stored Procedure**
-
-- All stored procedures used for loading data must follow the naming pattern:
-- **`load_<layer>`**.
-  
-  - `<layer>`: Represents the layer being loaded, such as `bronze`, `silver`, or `gold`.
-  - Example: 
-    - `load_bronze` → Stored procedure for loading data into the Bronze layer.
-    - `load_silver` → Stored procedure for loading data into the Silver layer.
