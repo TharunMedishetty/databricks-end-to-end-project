@@ -1,0 +1,30 @@
+[
+    {
+        "sourceRelativeURL":"TharunMedishetty/databricks-end-to-end-project/tree/main/datasets/customer_first.parquet",
+        "sinkFileName":"customer_first.parquet"
+    },
+    {
+        "sourceRelativeURL":"TharunMedishetty/databricks-end-to-end-project/tree/main/datasets/customers_second.parquet",
+        "sinkFileName":"customers_second.parquet"
+    },
+    {
+        "sourceRelativeURL":"TharunMedishetty/databricks-end-to-end-project/tree/main/datasets/orders_first.parquet",
+        "sinkFileName":"orders_first.parquet"
+    },
+    {
+        "sourceRelativeURL":"TharunMedishetty/databricks-end-to-end-project/tree/main/datasets/orders_second.parquet",
+        "sinkFileName":"orders_second.parquet"
+    },
+    {
+        "sourceRelativeURL":"TharunMedishetty/databricks-end-to-end-project/tree/main/datasets/products_first.parquet",
+        "sinkFileName":"products_first.parquet"
+    },
+    {
+        "sourceRelativeURL":"TharunMedishetty/databricks-end-to-end-project/tree/main/datasets/products_second.parquet",
+        "sinkFileName":"products_second.parquet"
+    },
+    {
+        "sourceRelativeURL":"TharunMedishetty/databricks-end-to-end-project/tree/main/datasets/regions.parquet",
+        "sinkFileName":"regions.parquet"
+    }
+]
